@@ -1,0 +1,350 @@
+
+body {
+  /* Remove a margem que o navegador coloca automaticamente */
+  margin: 0;
+  /* Define a cor de fundo, a cor do texto e o tipo de letra */
+  background-color: #f5f8fc;
+  color: #1d2d46;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Deixa os títulos com a mesma cor */
+h1, h2, h3 {
+  color: #183b68;
+}
+
+/* Cor padrão dos links */
+a {
+  color: #1769aa;
+}
+
+/* Cabeçalho com o nome da Ocean e o menu */
+.topo {
+  /* Espaço entre o conteúdo e as bordas */
+  padding: 18px;
+  background-color: white;
+  border-bottom: 1px solid #d7e0eb;
+}
+
+/* Aparência do nome da Ocean */
+.logo {
+  /* Permite que o logo fique ao lado do menu */
+  display: inline-block;
+  margin-right: 25px;
+  color: #183b68;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Destaca o ponto azul do logo */
+.logo span {
+  color: #3d91d1;
+}
+
+/* Menu de navegação */
+nav {
+  display: inline-block;
+}
+
+/* Links que aparecem dentro do menu */
+nav a {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 8px;
+  color: #34506f;
+  text-decoration: none;
+}
+
+/* Muda a aparência do link ao passar o mouse e da página atual */
+nav a:hover, nav a.ativo {
+  color: #1769aa;
+  text-decoration: underline;
+}
+
+/* Área principal de destaque da página inicial */
+.destaque {
+  padding: 35px 8%;
+  background-color: #e5f1fc;
+}
+
+/* Texto ao lado da imagem de destaque */
+.destaque-texto {
+  /* Coloca o texto na mesma linha da imagem */
+  display: inline-block;
+  width: 48%;
+  vertical-align: middle;
+}
+
+/* Imagem de destaque da página inicial */
+.destaque img {
+  display: inline-block;
+  width: 45%;
+  max-height: 360px;
+  object-fit: cover;
+  /* Alinha a imagem com o texto */
+  vertical-align: middle;
+}
+
+/* Tamanho dos títulos principais */
+.destaque h1, .cabecalho-pagina h1 {
+  font-size: 38px;
+  line-height: 1.2;
+}
+
+/* Texto pequeno usado antes dos títulos */
+.chamada {
+  color: #2879b9;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Aparência dos botões e links em formato de botão */
+.botao {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  color: white;
+  background-color: #2879b9;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Escurece o botão quando o mouse passa sobre ele */
+.botao:hover {
+  background-color: #1b5d91;
+}
+
+/* Espaçamento das seções do site */
+.secao {
+  padding: 35px 8%;
+}
+
+/* Centraliza o título da seção inicial */
+.titulo-secao {
+  text-align: center;
+}
+
+/* Cartões usados para organizar informações */
+.cartao {
+  /* Coloca os cartões lado a lado */
+  display: inline-block;
+  width: 27%;
+  min-height: 180px;
+  margin: 1%;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #d7e0eb;
+  vertical-align: top;
+}
+
+/* Links dentro dos cartões e links com seta */
+.cartao a, .link-seta {
+  color: #1769aa;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Sublinha os links quando o mouse passa sobre eles */
+.cartao a:hover, .link-seta:hover {
+  text-decoration: underline;
+}
+
+/* Faixa azul de chamada para ação */
+.faixa {
+  padding: 28px 8%;
+  color: white;
+  background-color: #183b68;
+}
+
+/* Texto dentro da faixa azul */
+.faixa p {
+  display: inline-block;
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+/* Versão clara do botão, usada sobre a faixa azul */
+.botao-claro {
+  color: #183b68;
+  background-color: white;
+}
+
+/* Cabeçalho das páginas internas */
+.cabecalho-pagina {
+  padding: 35px 8%;
+  background-color: #e5f1fc;
+}
+
+/* Limita a largura do texto de introdução */
+.cabecalho-pagina > p:last-child {
+  max-width: 650px;
+}
+
+/* Espaço entre os blocos de artistas */
+.artista {
+  margin-bottom: 35px;
+}
+
+/* Imagem da seção de artistas */
+.artista img {
+  display: inline-block;
+  width: 42%;
+  max-height: 350px;
+  margin-right: 4%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+/* Texto ao lado da imagem do artista */
+.artista div {
+  display: inline-block;
+  width: 48%;
+  vertical-align: middle;
+}
+
+/* Espaçamento da imagem na apresentação da dupla */
+.artista-invertido img {
+  margin-right: 4%;
+}
+
+/* Cartão de cada lançamento musical */
+.lancamento {
+  display: inline-block;
+  width: 43%;
+  margin: 1%;
+  background-color: white;
+  border: 1px solid #d7e0eb;
+  vertical-align: top;
+}
+
+/* Imagem do lançamento */
+.lancamento img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Espaço ao redor do texto do lançamento */
+.lancamento-conteudo {
+  padding: 15px;
+}
+
+/* Texto auxiliar, como observações do projeto */
+.nota {
+  color: #66758a;
+  font-size: 13px;
+}
+
+/* Caixa que destaca informações sobre eventos */
+.evento-destaque {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #d7e0eb;
+}
+
+/* Imagem dentro da caixa de eventos */
+.evento-destaque img {
+  display: inline-block;
+  width: 42%;
+  height: 230px;
+  margin-right: 3%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+/* Texto ao lado da imagem do evento */
+.evento-destaque div {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+}
+
+/* Coloca a imagem e o texto da página Sobre lado a lado */
+.sobre-imagem, .sobre-conteudo > div {
+  display: inline-block;
+  width: 46%;
+  margin: 1%;
+  vertical-align: middle;
+}
+
+/* Tamanho da imagem da página Sobre */
+.sobre-imagem img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+/* Colunas de informações e formulário na página de contato */
+.contato-info, .formulario {
+  display: inline-block;
+  width: 44%;
+  margin: 1%;
+  vertical-align: top;
+}
+
+/* Caixa ao redor do formulário */
+.formulario {
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #d7e0eb;
+}
+
+/* Cada nome de campo do formulário */
+.formulario label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Campos para digitar no formulário */
+.formulario input, .formulario textarea {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #b9c8d9;
+  font-family: Arial, sans-serif;
+}
+
+/* Rodapé compartilhado pelas páginas */
+footer {
+  padding: 18px 8%;
+  background-color: white;
+  border-top: 1px solid #d7e0eb;
+}
+
+/* Mantém os itens do rodapé na mesma linha */
+footer p, footer > a:last-child {
+  display: inline-block;
+  margin: 5px 20px 5px 0;
+}
+
+/* Ajuste simples para telas estreitas, como celulares */
+@media (max-width: 700px) {
+  /* Coloca as imagens, textos e formulário um abaixo do outro */
+  .destaque-texto, .destaque img, .artista img, .artista div,
+  .lancamento, .evento-destaque img, .evento-destaque div,
+  .sobre-imagem, .sobre-conteudo > div, .contato-info, .formulario {
+    display: block;
+    width: 100%;
+    margin: 12px 0;
+  }
+
+  /* Faz os cartões ocuparem quase toda a largura */
+  .cartao {
+    width: 85%;
+    margin: 10px 0;
+  }
+
+  /* Coloca o texto da faixa acima do botão */
+  .faixa p {
+    display: block;
+  }
+
+  /* Reduz o tamanho dos títulos em telas pequenas */
+  .destaque h1, .cabecalho-pagina h1 {
+    font-size: 30px;
+  }
+}
